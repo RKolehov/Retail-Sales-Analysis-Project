@@ -1,11 +1,11 @@
-📊 E-commerce Sales & Customer Analytics
+#📊 E-commerce Sales & Customer Analytics
 
-🔍 Project Overview
+##🔍 Project Overview
 
 This pet project focuses on analyzing e-commerce data, creating optimized SQL queries in PostgreSQL, and building interactive analytical dashboards.
 It covers the complete data workflow — from data extraction and cleaning to calculating key business metrics and visualizing actionable insights.
 
-🎯 Project Objectives
+##🎯 Project Objectives
 
 Develop and optimize SQL queries for large datasets.
 
@@ -15,7 +15,7 @@ Build interactive dashboards for business decision-making.
 
 Integrate SQL data with visual analytics for actionable insights.
 
-🗂 Data Structure
+##🗂 Data Structure
 
 The project leverages four main tables:
 
@@ -27,7 +27,7 @@ order_items — order details (products, price, quantity, discount).
 
 shipments — shipping information (carrier, shipped date, delivery date).
 
-📈 Key Metrics & Insights
+##📈 Key Metrics & Insights
 
 Executive Summary Dashboard
 
@@ -65,7 +65,7 @@ Delivery delays
 
 Carrier performance metrics
 
-🛠 Technologies Used
+##🛠 Technologies Used
 
 PostgreSQL — data storage and processing
 
@@ -75,7 +75,7 @@ Tableau — interactive dashboards and visualizations
 
 GitHub — version control and project documentation
 
-🚀 Key Achievements
+##🚀 Key Achievements
 
 Optimized SQL queries for datasets with over 20,000 rows.
 
@@ -85,7 +85,7 @@ Built reusable queries for payments, refunds, and unpaid orders.
 
 Implemented currency conversions and handled missing values in Tableau.
 
-📂 Getting Started
+##📂 Getting Started
 
 Clone the repository:
 
