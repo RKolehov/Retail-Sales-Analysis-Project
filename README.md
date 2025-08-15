@@ -1,4 +1,4 @@
-📊 E-commerce Sales & Customer Analytics Dashboard
+📊 E-commerce Sales & Customer Analytics
 
 🔍 Project Overview
 
