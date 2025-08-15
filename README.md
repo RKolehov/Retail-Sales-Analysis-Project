@@ -1,100 +1,45 @@
-#📊 E-commerce Sales & Customer Analytics
+# 📊 Retail Sales Analysis Project
 
-##🔍 Project Overview
+## **🔍 Project Description**
+Pet project analyzing e-commerce sales and customer behavior. Includes SQL queries for PostgreSQL and interactive dashboards. Covers the full data workflow — from extraction and cleaning to business metrics calculation and visualization.
 
-This pet project focuses on analyzing e-commerce data, creating optimized SQL queries in PostgreSQL, and building interactive analytical dashboards.
-It covers the complete data workflow — from data extraction and cleaning to calculating key business metrics and visualizing actionable insights.
+## **🎯 Project Goals**
+- **Develop SQL skills** with optimized queries for large datasets.
+- **Analyze customer behavior** and online store sales.
+- **Create interactive dashboards** to visualize key metrics.
+- **Integrate SQL data** with visual analytics.
 
-##🎯 Project Objectives
+## **🗂 Data Structure**
+Four main tables are used:  
+- **orders** — customer orders (date, customer, total amount).  
+- **payments** — order payments (amount, date, method).  
+- **order_items** — order details (products, price, quantity, discount).  
+- **shipments** — shipping information (carrier, shipping date, delivery date).  
 
-Develop and optimize SQL queries for large datasets.
+## **📈 Key Metrics**
+1. **Executive Summary Dashboard**  
+   - Total sales  
+   - Number of orders  
+   - Unique customers  
+   - Average order value  
+   - Profit / margin  
 
-Analyze customer behavior and sales trends.
+2. **Product Sales Analysis**  
+   - Sales by category and product  
+   - Average price  
+   - Product profitability  
 
-Build interactive dashboards for business decision-making.
+3. **Customer Analysis**  
+   - Lifetime Value (LTV)  
+   - Retention Rate  
+   - New vs returning customers  
 
-Integrate SQL data with visual analytics for actionable insights.
+4. **Logistics**  
+   - Average delivery time  
+   - Late deliveries  
+   - Carrier performance  
 
-##🗂 Data Structure
-
-The project leverages four main tables:
-
-orders — customer orders (date, customer ID, total amount).
-
-payments — order payments (amount, date, method).
-
-order_items — order details (products, price, quantity, discount).
-
-shipments — shipping information (carrier, shipped date, delivery date).
-
-##📈 Key Metrics & Insights
-
-Executive Summary Dashboard
-
-Total sales
-
-Number of orders
-
-Unique customers
-
-Average order value
-
-Profit & margin
-
-Product Sales Analysis
-
-Sales by category and product
-
-Average price per product
-
-Product profitability
-
-Customer Segmentation & Behavior
-
-Lifetime Value (LTV)
-
-Retention rate
-
-New vs returning customers
-
-Logistics & Delivery Performance
-
-Average delivery time
-
-Delivery delays
-
-Carrier performance metrics
-
-##🛠 Technologies Used
-
-PostgreSQL — data storage and processing
-
-SQL — analytical queries, aggregations, joins
-
-Tableau — interactive dashboards and visualizations
-
-GitHub — version control and project documentation
-
-##🚀 Key Achievements
-
-Optimized SQL queries for datasets with over 20,000 rows.
-
-Developed 4 interactive dashboards with essential KPIs.
-
-Built reusable queries for payments, refunds, and unpaid orders.
-
-Implemented currency conversions and handled missing values in Tableau.
-
-##📂 Getting Started
-
-Clone the repository:
-
-git clone https://github.com/RKolehov/Retail-Sales-Analysis-Project
-.git
-
-
-Set up your .env file with database credentials (ensure .env is in .gitignore).
-
-Run SQL scripts to populate and process data.
-
-Open Tableau dashboards and connect to the PostgreSQL database.
+## **🛠 Technologies**
+- **PostgreSQL** — data storage and processing  
+- **SQL** — analytical queries, aggregations, joins  
+- **Tableau** — interactive visualizations and dashboards
