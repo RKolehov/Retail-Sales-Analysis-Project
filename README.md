@@ -88,7 +88,8 @@ Implemented currency conversions and handled missing values in Tableau.
 
 Clone the repository:
 
-git clone https://github.com/username/project-name.git
+git clone https://github.com/RKolehov/Retail-Sales-Analysis-Project
+.git
 
 
 Set up your .env file with database credentials (ensure .env is in .gitignore).
