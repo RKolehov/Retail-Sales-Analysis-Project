@@ -1,4 +1,5 @@
 📊 E-commerce Sales & Customer Analytics Dashboard
+
 🔍 Project Overview
 
 This pet project focuses on analyzing e-commerce data, creating optimized SQL queries in PostgreSQL, and building interactive analytical dashboards.
