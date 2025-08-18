@@ -11,10 +11,11 @@ Pet project analyzing e-commerce sales and customer behavior. Includes SQL queri
 
 ## **🗂 Data Structure**
 Four main tables are used:  
-- **orders** — customer orders (date, customer, total amount).  
+- **orders** — customer orders (date, customer, total amount).
+- **expenses** — seller's expenses (amount, date, type).  
 - **payments** — order payments (amount, date, method).  
-- **order_items** — order details (products, price, quantity, discount).  
-- **shipments** — shipping information (carrier, shipping date, delivery date).  
+- **order_products** — order details (products, price, quantity, discount).  
+- **shipping** — shipping information (carrier, shipping date, delivery date).  
 
 ## **📈 Key Metrics**
 1. **Executive Summary Dashboard**  
