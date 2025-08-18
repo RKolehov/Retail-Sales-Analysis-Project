@@ -40,6 +40,7 @@ Four main tables are used:
    - Carrier performance  
 
 ## **🛠 Technologies**
+- **Python** — uploading data to PostgreSQL via API keyCRM
 - **PostgreSQL** — data storage and processing  
 - **SQL** — analytical queries, aggregations, joins  
 - **Tableau** — interactive visualizations and dashboards
