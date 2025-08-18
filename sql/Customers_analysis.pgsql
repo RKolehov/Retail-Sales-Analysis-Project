@@ -5,7 +5,7 @@ FROM buyers;
 --Answer: total_buyers: 11784--
 
 
-            --New vs Returning Customers--
+            --New vs Returning Customers (Retention Rate)--
 WITH first_orders AS (
     SELECT 
         buyer_id,
@@ -39,8 +39,14 @@ total_customers AS (
 SELECT 
     c.customer_type,
     c.customers_count,
-    ROUND((c.customers_count * 100.0 / t.total_unique_customers), 2) AS percentage
+    ROUND((c.customers_count * 100.0 / t.total_unique_customers), 2) AS percentage,
+    CASE 
+        WHEN c.customer_type = 'Returning' 
+        THEN ROUND((c.customers_count * 100.0 / t.total_unique_customers), 2)
+        ELSE NULL 
+    END AS retention_rate
 FROM customer_counts c
 CROSS JOIN total_customers t
 ORDER BY c.customer_type;
---Answer: 	New	- 8392, Percentage - 71.22. Returning - 3393, Percentage - 28.79
+--Answer: 	New	- 8392, Percentage - 71.22. Returning - 3393, Percentage - 28.79. 
+--Retention_Rate: 28.79%
