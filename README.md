@@ -29,7 +29,6 @@ Four main tables are used:
 2. **Product Sales Analysis**  
    - Sales by category and product  
    - Average price  
-   - Product profitability  
 
 3. **Customer Analysis**  
    - Lifetime Value (LTV)  
