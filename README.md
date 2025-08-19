@@ -20,10 +20,10 @@ Four main tables are used:
 ## **📈 Key Metrics**
 1. **Executive Summary Dashboard**  
    - Total sales  
-   - Number of orders  
-   - Unique customers  
-   - Average order value  
-   - Profit / margin  
+   - Total Orders  
+   - Average Order Value (AOV) 
+   - Order Status Breakdown
+   - Purchase Frequency  
 
 2. **Product Sales Analysis**  
    - Sales by category and product  
@@ -33,7 +33,8 @@ Four main tables are used:
 3. **Customer Analysis**  
    - Lifetime Value (LTV)  
    - Retention Rate  
-   - New vs returning customers  
+   - New vs returning customers
+   - RFM-analysis  
 
 4. **Logistics**  
    - Average delivery time  
