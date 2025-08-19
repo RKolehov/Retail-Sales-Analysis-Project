@@ -23,7 +23,8 @@ Four main tables are used:
    - Total Orders  
    - Average Order Value (AOV) 
    - Order Status Breakdown
-   - Purchase Frequency  
+   - Purchase Frequency
+   - Average delivery time  
 
 2. **Product Sales Analysis**  
    - Sales by category and product  
@@ -34,12 +35,7 @@ Four main tables are used:
    - Lifetime Value (LTV)  
    - Retention Rate  
    - New vs returning customers
-   - RFM-analysis  
-
-4. **Logistics**  
-   - Average delivery time  
-   - Late deliveries  
-   - Carrier performance  
+   - RFM-analysis   
 
 ## **Technologies**
 - **Python** — uploading data to PostgreSQL via API keyCRM
