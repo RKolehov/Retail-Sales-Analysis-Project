@@ -18,7 +18,7 @@ Four main tables are used:
 - **shipping** — shipping information (carrier, shipping date, delivery date).  
 
 ## **Key Metrics**
-1. **Executive Summary Dashboard**  
+1. **Sales Analysis**  
    - Total sales  
    - Total Orders  
    - Average Order Value (AOV) 
