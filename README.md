@@ -1,7 +1,7 @@
 # Retail Sales Analysis Project
 
 ## **Project Description**
-Pet project analyzing e-commerce sales and customer behavior. Includes SQL queries for PostgreSQL and interactive dashboards. Covers the full data workflow — from extraction and cleaning to business metrics calculation and visualization.
+Pet project analyzing real-world e-commerce sales and customer behavior using data sourced via keyCRM API. Features optimized SQL queries for PostgreSQL and interactive Tableau dashboards. Covers the full data workflow — from extraction and cleaning to calculating actionable business metrics and visualizing insights for decision-making.
 
 ## **Project Goals**
 - **Develop SQL skills** with optimized queries for large datasets.
