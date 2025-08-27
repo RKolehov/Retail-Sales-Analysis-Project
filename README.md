@@ -45,3 +45,5 @@ Four main tables are used:
 - **PostgreSQL** — data storage and processing  
 - **SQL** — analytical queries, aggregations, joins  
 - **Tableau** — interactive visualizations and dashboards
+
+**View dashboard with visualization: https://public.tableau.com/app/profile/roman.kolegov/viz/Retail_Sales_Analysis_Project/Summary**
